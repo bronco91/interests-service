@@ -22,9 +22,7 @@ public class InterestController {
         private String message;
         private Date timeStamp;
 
-        public TestResponse(){
-
-        }
+        public TestResponse(){ }
 
         public TestResponse(String message){
             this.message = message;
